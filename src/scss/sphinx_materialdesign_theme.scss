@@ -1,6 +1,6 @@
-@import "material-design-lite/src/shadow/shadow";
-@import "material-design-lite/src/data-table/data-table";
-@import "material-design-lite/src/footer/mini_footer";
+@import "../../../material-design-lite/src/shadow/shadow";
+@import "../../../material-design-lite/src/data-table/data-table";
+@import "../../../material-design-lite/src/footer/mini_footer";
 
 @import "./variables";
 @import "./fonts/material-icons";
@@ -20,4 +20,3 @@
 @import "./footer/footer";
 @import "./search/search";
 @import "./downloadlink/downloadlink";
-
