@@ -6,7 +6,7 @@ pardir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 print(pardir)
 sys.path.append(pardir)
 
-from sphinx_materialdesign_theme  import __version__
+from sphinx_iowmd_theme  import __version__
 
 source_suffix = '.rst'
 master_doc = 'index'
@@ -16,8 +16,8 @@ release = __version__
 
 
 project = 'Material Design Theme'
-copyright = '2016, Masahiko Yasuda'
-author = 'Masahiko Yasuda'
+copyright = '2020, Brian Butler'
+author = 'Brian Butler'
 
 language = 'en'
 
@@ -28,7 +28,7 @@ html_sidebars = {
 html_favicon = '_static/favicon.ico'
 html_logo = '_static/logo.png'
 
-html_theme = 'sphinx_materialdesign_theme'
+html_theme = 'sphinx_iowmd_theme'
 html_theme_path = ['../']
 
 html_theme_options = {

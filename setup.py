@@ -1,15 +1,15 @@
 from setuptools import setup
-from sphinx_materialdesign_theme import __version__
+from sphinx_iowmd_theme import __version__
 
 setup(
-    name = 'sphinx_materialdesign_theme',
+    name = 'sphinx_iowmd_theme',
     version = __version__,
-    author = 'Masahiko Yasuda',
-    author_email= 'myasuda@uchida.co.jp',
-    url="https://github.com/myyasuda/sphinx_materialdesign_theme",
-    docs_url="http://myyasuda.github.io/sphinx_materialdesign_theme/",
+    author = 'Brian Butler',
+    author_email= 'bbutler@iponweb.net',
+    url="https://github.com/zaniphrom/sphinx_iowmd_theme",
+    docs_url="https://github.com/zaniphrom/sphinx_iowmd_theme",
     description='Sphinx Material Design Theme',
-    packages = ['sphinx_materialdesign_theme'],
+    packages = ['sphinx_iowmd_theme'],
     include_package_data=True,
     license= 'MIT License',
     classifiers=[
@@ -25,8 +25,7 @@ setup(
     ],
     entry_points = {
         'sphinx.html_themes': [
-            'sphinx_materialdesign_theme = sphinx_materialdesign_theme',
+            'sphinx_iowmd_theme = sphinx_iowmd_theme',
         ]
     }
 )
-
