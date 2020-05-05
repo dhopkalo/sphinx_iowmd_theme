@@ -1,6 +1,6 @@
 {% block menu %}
 <div class="globaltoc">
-  <span class="mdl-layout-title toc">{{ _('Table Of Contents') }}</span>
+  <span class="mdl-layout-title toc">{{ _('') }}</span>
   {% set toctree = toctree(maxdepth=4, collapse=False, includehidden=True, titles_only=True) %}
   {% if toctree %}
       {% set lines = toctree.split('\n') %}
