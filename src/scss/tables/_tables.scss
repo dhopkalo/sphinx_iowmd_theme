@@ -5,7 +5,13 @@
 
         margin: 14px 0px;
         table-layout: fixed;
-        max-width: 100%;
+        width: 100%;
+
+        // Added from pervious Table fixes, may not be suitable
+        th.head {background-color: black};
+        th.head>p {color: white; margin:0px};
+        tr.row-even {background-color: #F7F9FC};
+        td>p {margin: 0px}; /* minimise table row height */
 
         th, td {
             @extend .mdl-data-table__cell--non-numeric;
