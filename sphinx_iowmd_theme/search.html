@@ -2,9 +2,11 @@
 {% set title = _('Search') %}
 {% set script_files = script_files + ['_static/searchtools.js'] %}
 {% block extrahead %}
-  <script type="text/javascript">
+  <!-- Previos search path, works on sphinx less than 1.7.5 -->
+  <!-- <script type="text/javascript">
     jQuery(function() { Search.loadIndex("{{ pathto('searchindex.js', 1) }}"); });
-  </script>
+  </script> -->
+   <script type="text/javascript" src="{{ pathto('searchindex.js', 1) }}" defer></script>
   {# this is used when loading the search index using $.ajax fails,
      such as on Chrome for documents on localhost #}
   <script type="text/javascript" id="searchindexloader"></script>
