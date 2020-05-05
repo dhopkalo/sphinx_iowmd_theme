@@ -9,6 +9,7 @@ setup(
     url="https://github.com/zaniphrom/sphinx_iowmd_theme",
     docs_url="https://github.com/zaniphrom/sphinx_iowmd_theme",
     description='Sphinx Material Design Theme',
+    long_description=open("README.md").read(),
     packages = ['sphinx_iowmd_theme'],
     include_package_data=True,
     license= 'MIT License',

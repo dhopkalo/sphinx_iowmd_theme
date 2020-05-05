@@ -1,8 +1,5 @@
 # Material Design HTML Theme for Sphinx
 
-[![PyPI version](https://badge.fury.io/py/sphinx_materialdesign_theme.svg)](https://badge.fury.io/py/sphinx_materialdesign_theme)
-[![CircleCI](https://circleci.com/gh/myyasuda/sphinx_materialdesign_theme.svg?style=svg)](https://circleci.com/gh/myyasuda/sphinx_materialdesign_theme)
-
 [Demo Document](http://myyasuda.github.io/sphinx_materialdesign_theme)
 
 ## Requirements
@@ -15,13 +12,13 @@
 Install the latest version of sphinx_materialdesign_theme with `pip`.
 
 ```shell
-pip install sphinx_materialdesign_theme
+pip install sphinx_iowmd_theme
 ```
 
 Add the following line to `conf.py`.
 
 ```python
-html_theme = 'sphinx_materialdesign_theme'
+html_theme = 'sphinx_iowmd_theme'
 ```
 
 ## Html theme options
@@ -46,7 +43,7 @@ html_theme_options = {
         ('Home', 'index', False, 'home'),
         ("ExternalLink", "http://example.com", True, 'launch'),
         ("NoIconLink", "http://example.com", True, ''),
-        ("GitHub", "https://github.com/myyasuda/sphinx_materialdesign_theme", True, 'link')
+        ("GitHub", "https://github.com/zaniphrom/sphinx_iowmd_theme", True, 'link')
     ],
 
     # Customize css colors.
