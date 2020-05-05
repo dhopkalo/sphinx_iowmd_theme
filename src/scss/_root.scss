@@ -53,3 +53,9 @@ a.download > i.material-icons {
 a.download {
     text-decoration: none;
 }
+
+// internal references
+// on hover highlight what link you're on
+a.reference.internal:hover {
+    background-color: #EBF2FA
+}
