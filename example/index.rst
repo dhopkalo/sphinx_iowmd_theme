@@ -12,13 +12,13 @@ Install the latest version of sphinx_materialdesign_theme with :code:`pip`.
 
 .. code-block:: bat
 
-   pip install sphinx_materialdesign_theme
+   pip install sphinx_iowmd_theme
 
 Add the following line to :code:`conf.py`.
 
 .. code-block:: python
 
-   html_theme = 'sphinx_materialdesign_theme'
+   html_theme = 'sphinx_iowmd_theme'
 
 Contents
 =========

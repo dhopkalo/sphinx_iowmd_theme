@@ -20,7 +20,7 @@ Installing Sphinx Material Design Theme.
 
 .. code-block:: shell
 
-   pip install sphinx_materialdesign_theme
+   pip install sphinx_iowmd_theme
 
 
 Usage
@@ -30,7 +30,7 @@ Add the following line to :code:`conf.py`.
 
 .. code-block:: python
 
-   html_theme = 'sphinx_materialdesign_theme'
+   html_theme = 'sphinx_iowmd_theme'
 
    # Html logo in drawer.
    # Fit in the drawer at the width of image is 240 px.
