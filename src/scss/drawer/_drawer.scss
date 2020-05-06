@@ -24,7 +24,7 @@
             text-align: center;
             margin: 0;
             padding: 0;
-            background-color: black;
+            // background-color: black;
             // line-height: 32px;
             border-bottom: 1px solid rgba(0,0,0,.1);
             min-height: 64px;
@@ -43,7 +43,7 @@
 
                 &-text {
                     font-weight: bold;
-                    text-align: right;
+                    text-align: center;
                     padding: 0 10px;
                     margin: 16px 0 8px 0;
                     line-height: 32px;
