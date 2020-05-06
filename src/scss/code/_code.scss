@@ -6,6 +6,7 @@
             margin: 1.5rem 0px;
             overflow: auto;
             overflow-y: hidden;
+            background-color: $code_background;
         }
     }
 
@@ -25,7 +26,8 @@
     }
 
     pre {
-        background: rgba(0, 0, 0, 0.05);
+        // background: rgba(0, 0, 0, 0.05);
+        background-color: $code_background;
         color: #455A64;
         padding: 16px 32px;
         width: auto;
@@ -40,7 +42,8 @@
                 font-family: $body_font_family;
                 padding: 0 0.5rem;
                 content: attr(click-to-copy);
-                color: rgba(0, 0, 0, 0.5);
+                // color: rgba(0, 0, 0, 0.5);
+                background-color: $code_background;
                 border-radius: 4px;
                 position: relative;
                 float: right;
