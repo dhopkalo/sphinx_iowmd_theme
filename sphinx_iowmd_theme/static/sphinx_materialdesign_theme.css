@@ -772,7 +772,7 @@ Material Icons
 }
 
 html {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 body {
@@ -1220,7 +1220,7 @@ a.reference.internal:hover {
   padding: 2px 0;
   display: block;
   width: 100%;
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-decoration: none;
   color: inherit;
 }
@@ -1310,7 +1310,7 @@ a.reference.internal:hover {
 .toctree-wrapper > p.caption,
 .contents.topic > p.topic-title {
   color: #757575;
-  font-size: 1rem;
+  font-size: 1.3rem;
   padding-left: 14px;
 }
 
@@ -1329,7 +1329,7 @@ a.reference.internal:hover {
 
 .toctree-wrapper > ul > li > a,
 .contents.topic > ul > li > a {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .page-content ul li p {
@@ -1365,7 +1365,6 @@ a.reference.internal:hover {
   text-align: center;
   margin: 0;
   padding: 0;
-  background-color: black;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   min-height: 64px;
 }
@@ -1383,7 +1382,7 @@ a.reference.internal:hover {
 }
 .mdl-layout__drawer > .mdl-layout-title .title-text {
   font-weight: bold;
-  text-align: right;
+  text-align: center;
   padding: 0 10px;
   margin: 16px 0 8px 0;
   line-height: 32px;
@@ -1446,6 +1445,7 @@ div.mdl-layout__header-row.header-links {
   width: 100%;
   overflow-x: auto;
   overflow-y: hidden;
+  height: 42px;
 }
 
 /*
