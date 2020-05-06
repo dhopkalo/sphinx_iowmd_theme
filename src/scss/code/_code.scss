@@ -8,18 +8,22 @@
             overflow-y: hidden;
         }
     }
-    
+
     .code, code:not(.download) {
-        margin: 0 4px;
-        padding: 0 4px;
-        background: $code_background;
+        border: 1px solid #C9D4EA;
+        background-color: #EDF2F8;
+        border-radius: 2px;
+        color: #3D66B9;
+        padding: 0px 2px 0px 2px;
+        margin: 1px 1px 1px 1px;
+        // background: $code_background;
         font-family: $code_font_family;
         border-radius: 2px;
         span.pre {
             font-family: $code_font_family;
         }
     }
-    
+
     pre {
         background: rgba(0, 0, 0, 0.05);
         color: #455A64;
