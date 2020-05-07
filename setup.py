@@ -15,7 +15,7 @@ setup(
     docs_url="https://github.com/zaniphrom/sphinx_iowmd_theme",
     description='Sphinx Material Design Theme',
     long_description=long_description,
-    long_description_content_type="text/rst",
+    long_description_content_type="text/x-rst",
     packages = ['sphinx_iowmd_theme'],
     include_package_data=True,
     license= 'MIT License',
