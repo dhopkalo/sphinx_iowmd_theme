@@ -1123,6 +1123,7 @@ a.reference.internal:hover {
   margin: 1.5rem 0px;
   overflow: auto;
   overflow-y: hidden;
+  background-color: #f9f9f9;
 }
 .page-content .code, .page-content code:not(.download) {
   border: 1px solid #C9D4EA;
@@ -1138,7 +1139,7 @@ a.reference.internal:hover {
   font-family: monospace, lato, "Menlo", "DejaVu Sans Mono", "Liberation Mono", "Consolas", "Ubuntu Mono", "Courier New", "andale mono", "lucida console";
 }
 .page-content pre {
-  background: rgba(0, 0, 0, 0.05);
+  background-color: #f9f9f9;
   color: #455A64;
   padding: 16px 32px;
   width: auto;
@@ -1150,7 +1151,7 @@ a.reference.internal:hover {
   font-family: lato, "Noto Sans Japanese";
   padding: 0 0.5rem;
   content: attr(click-to-copy);
-  color: rgba(0, 0, 0, 0.5);
+  background-color: #f9f9f9;
   border-radius: 4px;
   position: relative;
   float: right;
@@ -1167,7 +1168,7 @@ a.reference.internal:hover {
 .page-content blockquote {
   font-size: 1rem;
   padding: 0 1rem;
-  border-left: 3px solid rgba(0, 0, 0, 0.05);
+  border-left: 3px solid #f9f9f9;
 }
 .page-content blockquote:after {
   content: "" !important;
