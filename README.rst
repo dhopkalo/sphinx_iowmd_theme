@@ -113,24 +113,4 @@ Build Example's Document
 
    sphinx-build -b html ./example ./_build -c ./example
 
-License
--------
-
-+---------------------+---------+------------+---------------------+
-| thirdparty          | version | license    | URL                 |
-+=====================+=========+============+=====================+
-| Material Design     | 1.3.0   | Apache 2.0 | `https://gith       |
-| Lite                |         |            | ub.com/google/mater |
-|                     |         |            | ial-design-lite/blo |
-|                     |         |            | b/mdl-1.x/LICENSE`_ |
-+---------------------+---------+------------+---------------------+
-| Material design     | 3.0.1   | Apache 2.0 | `https://gith       |
-| icons               |         |            | ub.com/google/mater |
-|                     |         |            | ial-design-icons/bl |
-|                     |         |            | ob/master/LICENSE`_ |
-+---------------------+---------+------------+---------------------+
-
 .. _Demo Document: http://myyasuda.github.io/sphinx_materialdesign_theme
-.. _`https://github.com/google/material-design-lite/blob/mdl-1.x/LICENSE`: https://github.com/google/material-design-lite/blob/mdl-1.x/LICENSE
-.. _`https://github.com/google/material-design-icons/blob/master/LICENSE`: https://github.com/google/material-design-icons/blob/master/LICENSE
-

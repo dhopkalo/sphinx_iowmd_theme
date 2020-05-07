@@ -1,5 +1,10 @@
 from setuptools import setup
 from sphinx_iowmd_theme import __version__
+import os
+
+base_dir = os.path.dirname(__file__)
+with open(os.path.join(base_dir, "README.rst")) as f:
+    long_description = f.read()
 
 setup(
     name = 'sphinx_iowmd_theme',
@@ -9,7 +14,8 @@ setup(
     url="https://github.com/zaniphrom/sphinx_iowmd_theme",
     docs_url="https://github.com/zaniphrom/sphinx_iowmd_theme",
     description='Sphinx Material Design Theme',
-    # long_description=open("README.rst").read(),
+    long_description=long_description,
+    long_description_content_type="text/rst",
     packages = ['sphinx_iowmd_theme'],
     include_package_data=True,
     license= 'MIT License',
