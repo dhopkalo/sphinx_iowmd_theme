@@ -1,8 +1,6 @@
 Material Design HTML Theme for Sphinx
 =====================================
 
-`Demo Document`_
-
 Requirements
 ------------
 
@@ -13,7 +11,7 @@ Requirements
 Quick Start
 -----------
 
-Install the latest version of sphinx_materialdesign_theme with ``pip``.
+Install the latest version of sphinx_iowmd_theme with ``pip``.
 
 .. code:: shell
 
@@ -97,7 +95,7 @@ install
 
 ::
 
-   pip install dist/sphinx_materialdesign_theme-${version}.tar.gz
+   pip install dist/sphinx_iowmd_theme-${version}.tar.gz
 
 Resister PyPI
 ~~~~~~~~~~~~~
@@ -112,5 +110,3 @@ Build Example's Document
 ::
 
    sphinx-build -b html ./example ./_build -c ./example
-
-.. _Demo Document: http://myyasuda.github.io/sphinx_materialdesign_theme
