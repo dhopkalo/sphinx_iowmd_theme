@@ -59,13 +59,13 @@
 
     nav {
         > ul > li > span.link-wrapper {
-            padding-left: 8px;
-        }
-        > ul > li > ul > li > span.link-wrapper {
             padding-left: 16px;
         }
-        > ul > li > ul > li > ul > li > span.link-wrapper {
+        > ul > li > ul > li > span.link-wrapper {
             padding-left: 24px;
+        }
+        > ul > li > ul > li > ul > li > span.link-wrapper {
+            padding-left: 32px;
         }
         > ul > li > ul > li > ul > li > ul> li > span.link-wrapper {
             padding-left: 32px;
