@@ -1226,7 +1226,7 @@ a.reference.internal:hover {
   width: 100%;
   font-size: 0.9rem;
   text-decoration: none;
-  color: inherit;
+  color: #757575;
 }
 .globaltoc ul li .link-wrapper > a.current {
   font-weight: bold;
@@ -1256,13 +1256,13 @@ a.reference.internal:hover {
   margin-left: 4px;
 }
 .globaltoc nav > ul > li > span.link-wrapper {
-  padding-left: 8px;
-}
-.globaltoc nav > ul > li > ul > li > span.link-wrapper {
   padding-left: 16px;
 }
-.globaltoc nav > ul > li > ul > li > ul > li > span.link-wrapper {
+.globaltoc nav > ul > li > ul > li > span.link-wrapper {
   padding-left: 24px;
+}
+.globaltoc nav > ul > li > ul > li > ul > li > span.link-wrapper {
+  padding-left: 32px;
 }
 .globaltoc nav > ul > li > ul > li > ul > li > ul > li > span.link-wrapper {
   padding-left: 32px;
@@ -1564,6 +1564,13 @@ footer.mdl-mini-footer p.caption {
 
 ul.search span.highlighted {
   font-weight: bold;
+}
+
+span.highlighted {
+  background: #F1C40F;
+  display: inline-block;
+  font-weight: 700;
+  padding: 0 6px;
 }
 
 ul.search > li {

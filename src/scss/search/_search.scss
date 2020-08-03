@@ -15,6 +15,13 @@ ul.search span.highlighted {
     font-weight: bold;
 }
 
+span.highlighted {
+    background: #F1C40F;
+    display: inline-block;
+    font-weight: 700;
+    padding: 0 6px;
+}
+
 ul.search > li {
     margin-bottom: 24px;
 }
