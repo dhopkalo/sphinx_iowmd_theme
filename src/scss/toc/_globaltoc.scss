@@ -21,7 +21,8 @@
                     padding: 2px 0;
                     display: block;
                     width: 100%;
-                    font-size: 0.9rem;
+                    // font-size: 0.9rem; swap for greater readability
+                    font-size: 13px;
                     text-decoration: none;
                     color: $layout-drawer-navigation-color;
                     &.current {
