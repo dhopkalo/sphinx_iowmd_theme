@@ -69,6 +69,8 @@ html_theme_options = {
     'header_waterfall': True,
     'header_scroll': False,
 
+    # 'analytics_id': "123445",
+
     # Render title in header.
     # Values: True, False (Default: False)
     'show_header_title': False,
