@@ -69,7 +69,7 @@ html_theme_options = {
     'header_waterfall': True,
     'header_scroll': False,
 
-    'analytics_id': "UA-180331109-1",
+    'analytics_id': "abs223",
 
     # Render title in header.
     # Values: True, False (Default: False)
