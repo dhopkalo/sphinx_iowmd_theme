@@ -78,6 +78,9 @@ The following is a description of the options that can be specified in
        # Render footer.
        # Values: True, False (Default: True)
        'show_footer': True
+       # adds google analytics through pages footer insert
+       # IMPORTANT - it uses the newer 'gtag' style rather than older 'ga'
+       'analytics_id': 'your-google-analytics-id'
    }
 
 Developer's Tips
