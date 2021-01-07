@@ -17,6 +17,7 @@
             @extend .mdl-data-table__cell--non-numeric;
             white-space: normal;
             overflow-wrap: break-word;
+            border: 1px solid #eceeef;
         }
     }
 }
