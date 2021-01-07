@@ -53,6 +53,7 @@
 
     .side-doc-outline {
         width: map-get(map-get($layout, side-doc-outline), width);
+        // border-left: solid 1px rgb(96, 125, 139) ;
 
         @media (max-width: $lg-breakpoint - 1) {
             display: none;

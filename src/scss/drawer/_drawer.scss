@@ -4,7 +4,7 @@
 
  .mdl-layout--fixed-drawer.is-upgraded:not(.is-small-screen)>.mdl-layout__header {
     margin-left: $layout-drawer-width;
-    width: calc(100% - $layout-drawer-width);
+    width: calc(100% - 300px);
 }
 
 
