@@ -2826,10 +2826,9 @@ ol {
 	background-color: rgb(255, 255, 255)!important
 }
 
-.mdl-color-text--primary {
+/* .mdl-color-text--primary {
     color: rgb(96, 125, 139) !important
-	/* color: rgb(103, 58, 183)!important */
-}
+} */
 
 .mdl-color-text--primary-contrast {
 	color: rgb(255, 255, 255)!important

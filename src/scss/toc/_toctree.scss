@@ -3,12 +3,12 @@
  */
  .toctree-wrapper,
  .contents.topic {
-     border-left: 5px solid;
+     border-left: 1px solid;
  }
 
  .toctree-wrapper > p.caption,
  .contents.topic > p.topic-title {
-     color: rgb(117, 117, 117);
+    //  color: rgb(117, 117, 117);
      font-size: 1.3rem;
      padding-left: 14px;
  }
