@@ -1,7 +1,7 @@
 
 .PHONY: test
 test:
-	sass src/scss/sphinx_materialdesign_theme.scss ../bidcore/docs/_build/html/_static/sphinx_materialdesign_theme.css --style=compressed
+	sass src/scss/sphinx_materialdesign_theme.scss ../reims/docs/_build/html/_static/sphinx_materialdesign_theme.css --style=compressed
 	@echo
 	@echo "Build finished. The HTML pages are in BidCore Docs."
 
