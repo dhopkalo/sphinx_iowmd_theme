@@ -4,7 +4,7 @@
         @extend .mdl-shadow--2dp;
 
         margin: 14px 0px;
-        table-layout: fixed;
+        table-layout: auto;
         width: 100%;
 
         // Added from pervious Table fixes, may not be suitable
@@ -24,4 +24,23 @@
 
 .mdl-data-table, .page-content table:not(.footnote):not(.indextable):not(.hlist):not(.option-list):not(.field-list) {
     font-size: 16px;
+}
+
+// For linenos they've split the table, now the numbers also get a click to copy
+// this disables it. Also this matches up the BG colours
+// This is less than ideal but an intermediary fix
+
+td.linenos {
+    background-color: #edf2f8;
+    padding: 0px !important;
+}
+
+// td.linenos > div.linenodiv {
+//     background-color: #eceeef;
+// }
+
+td.linenos pre {
+    pointer-events: none;
+    padding: 0px;
+    background-color: inherit;
 }
