@@ -40,7 +40,15 @@ a.download > code.download {
     max-width: 100%;
  }
 
+/* If figure is set with align:right or left, float it*/
 
+.figure.align-right {
+    float: right;
+}
+
+.figure.align-left {
+    float: left;
+}
 
 /*
  * Download Link Styles
