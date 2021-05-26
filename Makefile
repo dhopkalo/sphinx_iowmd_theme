@@ -29,3 +29,9 @@ check:
 	twine check dist/*
 	@echo
 	@echo "Twine Build Checked"
+
+.PHONY: upload
+check:
+	twine upload dist/*
+	@echo
+	@echo "Twine Build Checked"
