@@ -32,7 +32,7 @@
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', '{{ theme_analytics_id }}', { 'anonymize_ip': true });
+      gtag('config', '{{ theme_analytics_id }}', { 'anonymize_ip': true }, {'allow_google_signals': false});
     </script>
 
     {%- endif %}
