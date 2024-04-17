@@ -61,7 +61,7 @@ $(function() {
         $("pre").hover(function() {
             var $this = $(this);
             // Determine if the text has multiple lines
-            var hoverText = $this.text().split("\n").length > 2 ? "double-click to copy" : "click to copy";
+            var hoverText = $this.text().trim().split("\n").length > 2 ? "double-click to copy" : "click to copy";
             $this.attr("click-to-copy", hoverText);
         });
         
@@ -69,7 +69,7 @@ $(function() {
         $("pre").each(function() {
             var $this = $(this);
             // Check if the text contains multiple lines
-            if ($this.text().split("\n").length > 2) {
+            if ($this.text().trim().split("\n").length > 2) {
                 // Use double-click for multiple lines
                 $this.dblclick(function() {
                     copyToClipboard($this);
