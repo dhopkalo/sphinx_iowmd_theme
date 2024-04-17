@@ -57,32 +57,46 @@ $(function() {
     }
     
     function styleMdlCodeBlock() {
-        $('pre').hover(function() {
-            $(this).attr('click-to-copy', 'click to copy...');
+        // Set up hover functionality dynamically based on number of lines
+        $("pre").hover(function() {
+            var $this = $(this);
+            // Determine if the text has multiple lines
+            var hoverText = $this.text().split("\n").length > 2 ? "double-click to copy" : "click to copy";
+            $this.attr("click-to-copy", hoverText);
         });
-        $('pre').click(function(){
-            var result = copyClipboard(this);
-            if (result) {
-                $(this).attr('click-to-copy', 'copied!');
+        
+        // Set up click or double-click functionality based on the number of lines
+        $("pre").each(function() {
+            var $this = $(this);
+            // Check if the text contains multiple lines
+            if ($this.text().split("\n").length > 2) {
+                // Use double-click for multiple lines
+                $this.dblclick(function() {
+                    copyToClipboard($this);
+                });
+            } else {
+                // Use single click for single line
+                $this.click(function() {
+                    copyToClipboard($this);
+                });
             }
         });
     }
     
-    function copyClipboard(selector) {
-        var body = document.body;
-        if(!body) return false;
-    
-        var $target = $(selector);
-        if ($target.length === 0) { return false; }
-    
-        var text = $target.text();
-        var textarea = document.createElement('textarea');
+    // Function to copy text to clipboard
+    function copyToClipboard(elem) {
+        var text = elem.text();
+        var textarea = document.createElement("textarea");
         textarea.value = text;
         document.body.appendChild(textarea);
         textarea.select();
-        var result = document.execCommand('copy');
+        var successful = document.execCommand("copy");
         document.body.removeChild(textarea);
-        return result;
+        if (successful) {
+            elem.attr("click-to-copy", "copied!");
+        } else {
+            elem.attr("click-to-copy", "copy failed, try again");
+        }
     }
     
     function quickSearchClickEvent() {
